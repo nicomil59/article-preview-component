@@ -159,6 +159,12 @@ a {
     margin-left: 1em;
 }
 
+.social-link__description {
+    display: inline-block;
+    visibility: hidden;
+    width: 0px;
+}
+
 .component__meta-share-container--inside, .component__meta-share-container--inside:hover {
     background-color: var(--desaturated-dark-blue);
 }
@@ -187,8 +193,6 @@ a {
         align-items: center;
         max-width: 730px;
         height: 280px;
-
-        
     }
 
     .component__image-container {
